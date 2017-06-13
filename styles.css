@@ -1,3 +1,26 @@
 body {
-  
+  font-size: 16px;
+}
+
+#bghero, #bgabout, #bgfood, #bgseats {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bghero {
+  background-image: url('img/biciclettemed.jpg');
+}
+
+#bgabout {
+  background-image: url('img/lamappamed.jpg');
+}
+
+#bgfood {
+  background-image: url('img/lingredientemed.jpg');
+}
+
+#bgseats {
+  background-image: url('img/herbsmed.jpg');
 }
