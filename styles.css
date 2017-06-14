@@ -1,15 +1,19 @@
+/**** General ****/
+
 body {
   font-size: 16px;
 }
 
-#bghero, #bgabout, #bgfood, #bgseats {
+#bgsplash, #bgabout, #bgfood, #bgseats {
   height: 100%;
+  width: auto;
+  min-height: 60em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#bghero {
+#bgsplash {
   background-image: url('img/biciclettemed.jpg');
 }
 
@@ -23,4 +27,21 @@ body {
 
 #bgseats {
   background-image: url('img/herbsmed.jpg');
+}
+
+/**** Navigation ****/
+
+#topnav {
+  width: 90%;
+  max-width: 30em;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+}
+
+#navbar li {
+  width: 30%;
 }
