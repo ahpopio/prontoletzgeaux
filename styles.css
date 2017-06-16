@@ -4,13 +4,23 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  line-height: 1.1em;
+}
+
 #bgsplash, #bgabout, #bgfood, #bgseats {
-  height: 100%;
   width: auto;
-  min-height: 60em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #bgsplash {
@@ -26,7 +36,7 @@ body {
 }
 
 #bgseats {
-  background-image: url('img/herbsmed.jpg');
+  background-image: url('img/armchairmed.jpg');
 }
 
 /**** Navigation ****/
@@ -34,6 +44,7 @@ body {
 #topnav {
   width: 90%;
   max-width: 30em;
+  margin: .5em auto auto .5em;
 }
 
 #navbar {
@@ -44,4 +55,180 @@ body {
 
 #navbar li {
   width: 30%;
+}
+
+/**** Content ****/
+
+#boxwrapper {
+  width: 100%;
+  margin-top: 5em;
+  display: flex;
+  align-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 30%;
+  min-width: 17.25em;
+  margin: 2em auto;
+  border-radius: 10px;
+  background-color: #FBF2EA; /* COLOR NAME */
+}
+
+.content h1 {
+  text-align: center;
+  padding: 0.3em;
+}
+
+.content .line {
+  display: block;
+  margin: 0 auto;
+  width: 15em;
+}
+
+.content p {
+  padding: .75em;
+}
+
+.image {
+  width: 24em;
+  height: 25em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+
+/**** Page Content: Splash ****/
+
+  .contentsplash {
+    border: 3px solid #781404; /* COLOR NAME */
+    box-shadow: -5px 5px #781404, /* COLOR NAME */
+                -2.5px 2.5px #781404; /* COLOR NAME */
+    width: 50%;
+  }
+
+  .contentsplash h1 {
+    color: #9E2D1B; /* COLOR NAME */
+  }
+
+
+/**** Page Content: About ****/
+
+  .contentabout {
+    border: 3px solid #DD9D5B; /* COLOR NAME */
+    box-shadow: -5px 5px #DD9D5B, /* COLOR NAME */
+                -2.5px 2.5px #DD9D5B; /* COLOR NAME */
+  }
+
+  .contentabout h1 {
+    color: #C07B35; /* COLOR NAME */
+  }
+
+  #imageowners {
+    background-image: url('img/couplesmall.jpg');
+  }
+
+
+/**** Page Content: Food ****/
+
+  .contentfood {
+    width: 30%;
+    border: 3px solid #DD6D5B; /* COLOR NAME */
+    box-shadow: -5px 5px #DD6D5B, /* COLOR NAME */
+                -2.5px 2.5px #DD6D5B; /* COLOR NAME */
+  }
+
+  .contentfood h1 {
+    color: #C04835; /* COLOR NAME */
+  }
+
+  #herbssmall {
+    background-image: url('img/herbssmall.jpg');
+  }
+
+  #skilletsmall {
+    background-image: url('img/skilletsmall.jpg');
+  }
+
+  #dessertspreadsmall {
+    background-image: url('img/dessertspreadsmall.jpg');
+  }
+
+  #miseenplacesmall {
+    background-image: url('img/miseenplacesmall.jpg');
+  }
+
+  #cakesaucesmall {
+    background-image: url('img/cakesaucesmall.jpg');
+  }
+
+/**** Page Content: Seats ****/
+
+  .contentseats {
+    width: 50%;
+    border: 3px solid #BA4C7E; /* COLOR NAME */
+    box-shadow: -5px 5px #BA4C7E, /* COLOR NAME */
+                -2.5px 2.5px #BA4C7E; /* COLOR NAME */
+    text-align: center;
+  }
+
+  .contentseats h1 {
+    color: #A12C62; /* COLOR NAME */
+  }
+
+  form {
+    margin: 1em;
+  }
+
+  .formitem {
+    padding: .25em;
+  }
+
+  input {
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: #FBF2EA; /* COLOR NAME */
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+  }
+
+  label {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    margin-right: .5em;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  button {
+    display: block;
+    margin: 1.25em auto 0;
+    padding: .25em;
+    border: none;
+    border-radius: 7px;
+    background: #BA4C7E;
+  }
+
+  button a {
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 2.25em;
+    color: #FBF2EA;
+  }
+
+
+/**** MEDIA QUERIES ****/
+
+@media (min-width: 55em) {
+    /*.contentabout h1 {
+      background: black;
+    }*/
 }
