@@ -13,6 +13,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.15em;
   line-height: 1.1em;
+  color: #474e52;
 }
 
 .background {
@@ -61,7 +62,7 @@ p {
 
 #boxwrapper {
   width: 100%;
-  margin-top: 5em;
+  margin-top: 3em;
   display: flex;
   align-content: space-around;
   align-items: flex-start;
@@ -191,7 +192,7 @@ p {
     width: 90%;
     margin: 0 5%;
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #474e52; /* COLOR NAME */
     background: #FBF2EA; /* COLOR NAME */
     outline: none;
     font-family: 'Raleway', sans-serif;
@@ -202,6 +203,7 @@ p {
     font-family: 'Lobster', cursive;
     font-size: 1.5em;
     margin-right: .5em;
+    color: #3b4144;
   }
 
   button {
@@ -210,12 +212,12 @@ p {
     padding: .25em;
     border: none;
     border-radius: 7px;
-    background: #BA4C7E;
+    background: #BA4C7E; /* COLOR NAME */
   }
 
   button a {
     text-decoration: none;
     font-family: 'Lobster', cursive;
     font-size: 2.25em;
-    color: #FBF2EA;
+    color: #FBF2EA; /* COLOR NAME */
   }
